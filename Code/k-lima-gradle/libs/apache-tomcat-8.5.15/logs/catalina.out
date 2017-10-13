@@ -1,0 +1,602 @@
+Picked up _JAVA_OPTIONS: -Dawt.useSystemAAFontSettings=on
+11-Oct-2017 17:53:51.798 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.15
+11-Oct-2017 17:53:51.805 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 5 2017 11:03:04 UTC
+11-Oct-2017 17:53:51.806 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.15.0
+11-Oct-2017 17:53:51.806 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+11-Oct-2017 17:53:51.806 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.13.4-1-ARCH
+11-Oct-2017 17:53:51.806 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+11-Oct-2017 17:53:51.807 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk/jre
+11-Oct-2017 17:53:51.807 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_144-b01
+11-Oct-2017 17:53:51.807 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+11-Oct-2017 17:53:51.807 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/nardi/NetBeansProjects/k-lima-gradle/Code/k-lima-gradle/libs/apache-tomcat-8.5.15
+11-Oct-2017 17:53:51.807 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/nardi/NetBeansProjects/k-lima-gradle/Code/k-lima-gradle/libs/apache-tomcat-8.5.15
+11-Oct-2017 17:53:51.808 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/nardi/NetBeansProjects/k-lima-gradle/Code/k-lima-gradle/libs/apache-tomcat-8.5.15/conf/logging.properties
+11-Oct-2017 17:53:51.809 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Oct-2017 17:53:51.809 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+11-Oct-2017 17:53:51.809 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+11-Oct-2017 17:53:51.809 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/nardi/NetBeansProjects/k-lima-gradle/Code/k-lima-gradle/libs/apache-tomcat-8.5.15
+11-Oct-2017 17:53:51.809 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/nardi/NetBeansProjects/k-lima-gradle/Code/k-lima-gradle/libs/apache-tomcat-8.5.15
+11-Oct-2017 17:53:51.809 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/nardi/NetBeansProjects/k-lima-gradle/Code/k-lima-gradle/libs/apache-tomcat-8.5.15/temp
+11-Oct-2017 17:53:51.810 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dawt.useSystemAAFontSettings=on
+11-Oct-2017 17:53:51.810 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+11-Oct-2017 17:53:51.934 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+11-Oct-2017 17:53:51.961 INFORMAÇÕES [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-Oct-2017 17:53:51.965 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+11-Oct-2017 17:53:51.969 INFORMAÇÕES [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-Oct-2017 17:53:51.979 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.load Initialization processed in 729 ms
+11-Oct-2017 17:53:52.027 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+11-Oct-2017 17:53:52.027 INFORMAÇÕES [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.15
+11-Oct-2017 17:53:52.043 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [/home/nardi/NetBeansProjects/k-lima-gradle/Code/k-lima-gradle/libs/apache-tomcat-8.5.15/conf/Catalina/localhost/tutoria.xml]
+11-Oct-2017 17:53:52.089 ADVERTÊNCIA [localhost-startStop-1] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+11-Oct-2017 17:53:54.993 INFORMAÇÕES [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Oct-2017 17:53:55.033 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [/home/nardi/NetBeansProjects/k-lima-gradle/Code/k-lima-gradle/libs/apache-tomcat-8.5.15/conf/Catalina/localhost/tutoria.xml] has finished in [2,990] ms
+11-Oct-2017 17:53:55.036 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+11-Oct-2017 17:53:55.058 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+11-Oct-2017 17:53:55.077 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.start Server startup in 3097 ms
+11-Oct-2017 17:54:19.954 INFORMAÇÕES [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+11-Oct-2017 17:54:20.018 INFORMAÇÕES [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+11-Oct-2017 17:54:20.022 INFORMAÇÕES [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+11-Oct-2017 17:54:20.385 INFO [localhost-startStop-2] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
+11-Oct-2017 17:54:20.418 INFO [localhost-startStop-2] org.hibernate.Version.logVersion HHH000412: Hibernate Core {4.3.1.Final}
+11-Oct-2017 17:54:20.423 INFO [localhost-startStop-2] org.hibernate.cfg.Environment.<clinit> HHH000206: hibernate.properties not found
+11-Oct-2017 17:54:20.426 INFO [localhost-startStop-2] org.hibernate.cfg.Environment.buildBytecodeProvider HHH000021: Bytecode provider name : javassist
+11-Oct-2017 17:54:20.453 INFO [localhost-startStop-2] org.hibernate.cfg.Configuration.configure HHH000043: Configuring from resource: /hibernate.cfg.xml
+11-Oct-2017 17:54:20.454 INFO [localhost-startStop-2] org.hibernate.cfg.Configuration.getConfigurationInputStream HHH000040: Configuration resource: /hibernate.cfg.xml
+11-Oct-2017 17:54:20.524 INFO [localhost-startStop-2] org.hibernate.cfg.Configuration.doConfigure HHH000041: Configured SessionFactory: null
+11-Oct-2017 17:54:20.656 WARN [localhost-startStop-2] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000402: Using Hibernate built-in connection pool (not for production use!)
+11-Oct-2017 17:54:20.660 INFO [localhost-startStop-2] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH000401: using driver [org.mariadb.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/db_klima]
+11-Oct-2017 17:54:20.661 INFO [localhost-startStop-2] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH000046: Connection properties: {user=root, password=****, autocommit=false}
+11-Oct-2017 17:54:20.661 INFO [localhost-startStop-2] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH000006: Autocommit mode: false
+11-Oct-2017 17:54:20.663 INFO [localhost-startStop-2] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000115: Hibernate connection pool size: 20 (min=1)
+Initial SessionFactory creation failed.org.hibernate.exception.JDBCConnectionException: Error calling Driver#connect
+11-Oct-2017 17:54:20.717 ADVERTÊNCIA [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [tutoria] registered the JDBC driver [org.mariadb.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+11-Oct-2017 17:54:20.725 INFORMAÇÕES [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+11-Oct-2017 17:54:20.728 INFORMAÇÕES [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+11-Oct-2017 17:54:20.732 INFORMAÇÕES [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+11-Oct-2017 17:54:20.733 INFORMAÇÕES [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+Picked up _JAVA_OPTIONS: -Dawt.useSystemAAFontSettings=on
+11-Oct-2017 17:55:14.453 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.15
+11-Oct-2017 17:55:14.462 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 5 2017 11:03:04 UTC
+11-Oct-2017 17:55:14.462 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.15.0
+11-Oct-2017 17:55:14.462 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+11-Oct-2017 17:55:14.462 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.13.4-1-ARCH
+11-Oct-2017 17:55:14.462 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+11-Oct-2017 17:55:14.463 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk/jre
+11-Oct-2017 17:55:14.463 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_144-b01
+11-Oct-2017 17:55:14.463 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+11-Oct-2017 17:55:14.463 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/nardi/NetBeansProjects/k-lima-gradle/Code/k-lima-gradle/libs/apache-tomcat-8.5.15
+11-Oct-2017 17:55:14.463 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/nardi/NetBeansProjects/k-lima-gradle/Code/k-lima-gradle/libs/apache-tomcat-8.5.15
+11-Oct-2017 17:55:14.464 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/nardi/NetBeansProjects/k-lima-gradle/Code/k-lima-gradle/libs/apache-tomcat-8.5.15/conf/logging.properties
+11-Oct-2017 17:55:14.464 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Oct-2017 17:55:14.464 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+11-Oct-2017 17:55:14.464 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+11-Oct-2017 17:55:14.464 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/nardi/NetBeansProjects/k-lima-gradle/Code/k-lima-gradle/libs/apache-tomcat-8.5.15
+11-Oct-2017 17:55:14.465 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/nardi/NetBeansProjects/k-lima-gradle/Code/k-lima-gradle/libs/apache-tomcat-8.5.15
+11-Oct-2017 17:55:14.465 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/nardi/NetBeansProjects/k-lima-gradle/Code/k-lima-gradle/libs/apache-tomcat-8.5.15/temp
+11-Oct-2017 17:55:14.465 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dawt.useSystemAAFontSettings=on
+11-Oct-2017 17:55:14.465 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+11-Oct-2017 17:55:14.618 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+11-Oct-2017 17:55:14.662 INFORMAÇÕES [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-Oct-2017 17:55:14.665 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+11-Oct-2017 17:55:14.670 INFORMAÇÕES [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-Oct-2017 17:55:14.670 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.load Initialization processed in 884 ms
+11-Oct-2017 17:55:14.728 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+11-Oct-2017 17:55:14.728 INFORMAÇÕES [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.15
+11-Oct-2017 17:55:14.744 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [/home/nardi/NetBeansProjects/k-lima-gradle/Code/k-lima-gradle/libs/apache-tomcat-8.5.15/conf/Catalina/localhost/tutoria.xml]
+11-Oct-2017 17:55:14.796 ADVERTÊNCIA [localhost-startStop-1] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+11-Oct-2017 17:55:17.897 INFORMAÇÕES [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Oct-2017 17:55:17.993 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [/home/nardi/NetBeansProjects/k-lima-gradle/Code/k-lima-gradle/libs/apache-tomcat-8.5.15/conf/Catalina/localhost/tutoria.xml] has finished in [3,247] ms
+11-Oct-2017 17:55:18.005 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+11-Oct-2017 17:55:18.025 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+11-Oct-2017 17:55:18.029 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.start Server startup in 3357 ms
+11-Oct-2017 17:56:12.976 GRAVE [ajp-nio-8009-exec-1] org.apache.coyote.ajp.AjpMessage.processHeader Invalid message received with signature [18245]
+11-Oct-2017 17:56:12.978 GRAVE [ajp-nio-8009-exec-2] org.apache.coyote.ajp.AjpMessage.processHeader Invalid message received with signature [18245]
+11-Oct-2017 17:56:12.982 GRAVE [ajp-nio-8009-exec-3] org.apache.coyote.ajp.AjpMessage.processHeader Invalid message received with signature [18245]
+11-Oct-2017 17:56:18.056 GRAVE [ajp-nio-8009-exec-4] org.apache.coyote.ajp.AjpMessage.processHeader Invalid message received with signature [18245]
+11-Oct-2017 17:56:28.708 INFORMAÇÕES [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+11-Oct-2017 17:56:28.709 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+11-Oct-2017 17:56:28.716 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+11-Oct-2017 17:56:28.767 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+11-Oct-2017 17:56:29.024 INFO [localhost-startStop-2] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
+11-Oct-2017 17:56:29.041 INFO [localhost-startStop-2] org.hibernate.Version.logVersion HHH000412: Hibernate Core {4.3.1.Final}
+11-Oct-2017 17:56:29.046 INFO [localhost-startStop-2] org.hibernate.cfg.Environment.<clinit> HHH000206: hibernate.properties not found
+11-Oct-2017 17:56:29.049 INFO [localhost-startStop-2] org.hibernate.cfg.Environment.buildBytecodeProvider HHH000021: Bytecode provider name : javassist
+11-Oct-2017 17:56:29.082 INFO [localhost-startStop-2] org.hibernate.cfg.Configuration.configure HHH000043: Configuring from resource: /hibernate.cfg.xml
+11-Oct-2017 17:56:29.083 INFO [localhost-startStop-2] org.hibernate.cfg.Configuration.getConfigurationInputStream HHH000040: Configuration resource: /hibernate.cfg.xml
+11-Oct-2017 17:56:29.195 INFO [localhost-startStop-2] org.hibernate.cfg.Configuration.doConfigure HHH000041: Configured SessionFactory: null
+11-Oct-2017 17:56:29.334 WARN [localhost-startStop-2] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000402: Using Hibernate built-in connection pool (not for production use!)
+11-Oct-2017 17:56:29.337 INFO [localhost-startStop-2] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH000401: using driver [org.mariadb.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/db_klima]
+11-Oct-2017 17:56:29.338 INFO [localhost-startStop-2] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH000046: Connection properties: {user=root, password=****, autocommit=false}
+11-Oct-2017 17:56:29.339 INFO [localhost-startStop-2] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH000006: Autocommit mode: false
+11-Oct-2017 17:56:29.342 INFO [localhost-startStop-2] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000115: Hibernate connection pool size: 20 (min=1)
+Initial SessionFactory creation failed.org.hibernate.exception.JDBCConnectionException: Error calling Driver#connect
+11-Oct-2017 17:56:29.397 ADVERTÊNCIA [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [tutoria] registered the JDBC driver [org.mariadb.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+11-Oct-2017 17:56:29.406 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+11-Oct-2017 17:56:29.408 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+11-Oct-2017 17:56:29.411 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+11-Oct-2017 17:56:29.412 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+Picked up _JAVA_OPTIONS: -Dawt.useSystemAAFontSettings=on
+11-Oct-2017 17:56:53.704 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.15
+11-Oct-2017 17:56:53.710 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 5 2017 11:03:04 UTC
+11-Oct-2017 17:56:53.711 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.15.0
+11-Oct-2017 17:56:53.711 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+11-Oct-2017 17:56:53.712 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.13.4-1-ARCH
+11-Oct-2017 17:56:53.712 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+11-Oct-2017 17:56:53.713 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk/jre
+11-Oct-2017 17:56:53.713 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_144-b01
+11-Oct-2017 17:56:53.714 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+11-Oct-2017 17:56:53.714 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/nardi/NetBeansProjects/k-lima-gradle/Code/k-lima-gradle/libs/apache-tomcat-8.5.15
+11-Oct-2017 17:56:53.714 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/nardi/NetBeansProjects/k-lima-gradle/Code/k-lima-gradle/libs/apache-tomcat-8.5.15
+11-Oct-2017 17:56:53.714 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/nardi/NetBeansProjects/k-lima-gradle/Code/k-lima-gradle/libs/apache-tomcat-8.5.15/conf/logging.properties
+11-Oct-2017 17:56:53.715 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Oct-2017 17:56:53.715 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+11-Oct-2017 17:56:53.715 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+11-Oct-2017 17:56:53.716 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/nardi/NetBeansProjects/k-lima-gradle/Code/k-lima-gradle/libs/apache-tomcat-8.5.15
+11-Oct-2017 17:56:53.716 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/nardi/NetBeansProjects/k-lima-gradle/Code/k-lima-gradle/libs/apache-tomcat-8.5.15
+11-Oct-2017 17:56:53.716 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/nardi/NetBeansProjects/k-lima-gradle/Code/k-lima-gradle/libs/apache-tomcat-8.5.15/temp
+11-Oct-2017 17:56:53.717 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dawt.useSystemAAFontSettings=on
+11-Oct-2017 17:56:53.717 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+11-Oct-2017 17:56:53.853 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+11-Oct-2017 17:56:53.881 INFORMAÇÕES [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-Oct-2017 17:56:53.886 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+11-Oct-2017 17:56:53.889 INFORMAÇÕES [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-Oct-2017 17:56:53.908 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.load Initialization processed in 719 ms
+11-Oct-2017 17:56:53.959 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+11-Oct-2017 17:56:53.960 INFORMAÇÕES [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.15
+11-Oct-2017 17:56:53.972 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [/home/nardi/NetBeansProjects/k-lima-gradle/Code/k-lima-gradle/libs/apache-tomcat-8.5.15/conf/Catalina/localhost/tutoria.xml]
+11-Oct-2017 17:56:54.026 ADVERTÊNCIA [localhost-startStop-1] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+11-Oct-2017 17:56:57.512 INFORMAÇÕES [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Oct-2017 17:56:57.567 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [/home/nardi/NetBeansProjects/k-lima-gradle/Code/k-lima-gradle/libs/apache-tomcat-8.5.15/conf/Catalina/localhost/tutoria.xml] has finished in [3,595] ms
+11-Oct-2017 17:56:57.568 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/nardi/NetBeansProjects/k-lima-gradle/Code/k-lima-gradle/libs/apache-tomcat-8.5.15/webapps/docs]
+11-Oct-2017 17:56:57.610 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/nardi/NetBeansProjects/k-lima-gradle/Code/k-lima-gradle/libs/apache-tomcat-8.5.15/webapps/docs] has finished in [42] ms
+11-Oct-2017 17:56:57.611 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/nardi/NetBeansProjects/k-lima-gradle/Code/k-lima-gradle/libs/apache-tomcat-8.5.15/webapps/examples]
+11-Oct-2017 17:56:58.040 GRAVE [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+11-Oct-2017 17:56:58.041 GRAVE [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal Context [/examples] startup failed due to previous errors
+11-Oct-2017 17:56:58.073 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/nardi/NetBeansProjects/k-lima-gradle/Code/k-lima-gradle/libs/apache-tomcat-8.5.15/webapps/examples] has finished in [462] ms
+11-Oct-2017 17:56:58.089 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/nardi/NetBeansProjects/k-lima-gradle/Code/k-lima-gradle/libs/apache-tomcat-8.5.15/webapps/manager]
+11-Oct-2017 17:56:58.224 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/nardi/NetBeansProjects/k-lima-gradle/Code/k-lima-gradle/libs/apache-tomcat-8.5.15/webapps/manager] has finished in [135] ms
+11-Oct-2017 17:56:58.225 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/nardi/NetBeansProjects/k-lima-gradle/Code/k-lima-gradle/libs/apache-tomcat-8.5.15/webapps/host-manager]
+11-Oct-2017 17:56:58.294 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/nardi/NetBeansProjects/k-lima-gradle/Code/k-lima-gradle/libs/apache-tomcat-8.5.15/webapps/host-manager] has finished in [69] ms
+11-Oct-2017 17:56:58.299 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/nardi/NetBeansProjects/k-lima-gradle/Code/k-lima-gradle/libs/apache-tomcat-8.5.15/webapps/ROOT]
+11-Oct-2017 17:56:58.343 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/nardi/NetBeansProjects/k-lima-gradle/Code/k-lima-gradle/libs/apache-tomcat-8.5.15/webapps/ROOT] has finished in [44] ms
+11-Oct-2017 17:56:58.366 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+11-Oct-2017 17:56:58.407 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+11-Oct-2017 17:56:58.427 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.start Server startup in 4519 ms
+11-Oct-2017 17:56:58.649 GRAVE [ajp-nio-8009-exec-1] org.apache.coyote.ajp.AjpMessage.processHeader Invalid message received with signature [18245]
+11-Oct-2017 17:56:58.657 GRAVE [ajp-nio-8009-exec-2] org.apache.coyote.ajp.AjpMessage.processHeader Invalid message received with signature [18245]
+11-Oct-2017 17:56:58.664 GRAVE [ajp-nio-8009-exec-3] org.apache.coyote.ajp.AjpMessage.processHeader Invalid message received with signature [18245]
+11-Oct-2017 17:57:28.385 INFORMAÇÕES [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/nardi/NetBeansProjects/k-lima-gradle/Code/k-lima-gradle/libs/apache-tomcat-8.5.15/webapps/k-lima-gradle.war]
+11-Oct-2017 17:57:31.324 INFORMAÇÕES [localhost-startStop-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Oct-2017 17:57:31.331 INFORMAÇÕES [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/nardi/NetBeansProjects/k-lima-gradle/Code/k-lima-gradle/libs/apache-tomcat-8.5.15/webapps/k-lima-gradle.war] has finished in [2,946] ms
+11-Oct-2017 17:57:33.314 INFO [http-nio-8080-exec-5] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
+11-Oct-2017 17:57:33.329 INFO [http-nio-8080-exec-5] org.hibernate.Version.logVersion HHH000412: Hibernate Core {4.3.1.Final}
+11-Oct-2017 17:57:33.333 INFO [http-nio-8080-exec-5] org.hibernate.cfg.Environment.<clinit> HHH000206: hibernate.properties not found
+11-Oct-2017 17:57:33.337 INFO [http-nio-8080-exec-5] org.hibernate.cfg.Environment.buildBytecodeProvider HHH000021: Bytecode provider name : javassist
+11-Oct-2017 17:57:33.365 INFO [http-nio-8080-exec-5] org.hibernate.cfg.Configuration.configure HHH000043: Configuring from resource: /hibernate.cfg.xml
+11-Oct-2017 17:57:33.365 INFO [http-nio-8080-exec-5] org.hibernate.cfg.Configuration.getConfigurationInputStream HHH000040: Configuration resource: /hibernate.cfg.xml
+11-Oct-2017 17:57:33.461 INFO [http-nio-8080-exec-5] org.hibernate.cfg.Configuration.doConfigure HHH000041: Configured SessionFactory: null
+11-Oct-2017 17:57:33.632 WARN [http-nio-8080-exec-5] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000402: Using Hibernate built-in connection pool (not for production use!)
+11-Oct-2017 17:57:33.637 INFO [http-nio-8080-exec-5] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH000401: using driver [org.mariadb.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/db_klima]
+11-Oct-2017 17:57:33.639 INFO [http-nio-8080-exec-5] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH000046: Connection properties: {user=root, password=****, autocommit=false}
+11-Oct-2017 17:57:33.639 INFO [http-nio-8080-exec-5] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH000006: Autocommit mode: false
+11-Oct-2017 17:57:33.643 INFO [http-nio-8080-exec-5] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000115: Hibernate connection pool size: 20 (min=1)
+Initial SessionFactory creation failed.org.hibernate.exception.JDBCConnectionException: Error calling Driver#connect
+Picked up _JAVA_OPTIONS: -Dawt.useSystemAAFontSettings=on
+11-Oct-2017 18:08:09.721 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.15
+11-Oct-2017 18:08:09.728 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 5 2017 11:03:04 UTC
+11-Oct-2017 18:08:09.729 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.15.0
+11-Oct-2017 18:08:09.729 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+11-Oct-2017 18:08:09.729 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.13.4-1-ARCH
+11-Oct-2017 18:08:09.729 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+11-Oct-2017 18:08:09.729 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk/jre
+11-Oct-2017 18:08:09.730 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_144-b01
+11-Oct-2017 18:08:09.730 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+11-Oct-2017 18:08:09.731 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/nardi/NetBeansProjects/k-lima-gradle/Code/k-lima-gradle/libs/apache-tomcat-8.5.15
+11-Oct-2017 18:08:09.731 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/nardi/NetBeansProjects/k-lima-gradle/Code/k-lima-gradle/libs/apache-tomcat-8.5.15
+11-Oct-2017 18:08:09.732 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/nardi/NetBeansProjects/k-lima-gradle/Code/k-lima-gradle/libs/apache-tomcat-8.5.15/conf/logging.properties
+11-Oct-2017 18:08:09.732 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Oct-2017 18:08:09.732 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+11-Oct-2017 18:08:09.732 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+11-Oct-2017 18:08:09.733 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/nardi/NetBeansProjects/k-lima-gradle/Code/k-lima-gradle/libs/apache-tomcat-8.5.15
+11-Oct-2017 18:08:09.733 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/nardi/NetBeansProjects/k-lima-gradle/Code/k-lima-gradle/libs/apache-tomcat-8.5.15
+11-Oct-2017 18:08:09.733 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/nardi/NetBeansProjects/k-lima-gradle/Code/k-lima-gradle/libs/apache-tomcat-8.5.15/temp
+11-Oct-2017 18:08:09.733 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dawt.useSystemAAFontSettings=on
+11-Oct-2017 18:08:09.734 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+11-Oct-2017 18:08:09.936 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+11-Oct-2017 18:08:09.960 GRAVE [main] org.apache.coyote.AbstractProtocol.init Failed to initialize end point associated with ProtocolHandler ["http-nio-8080"]
+ java.net.BindException: Endereço já em uso
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:970)
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:244)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:613)
+	at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:66)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:997)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:549)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:875)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:607)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:630)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:311)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:494)
+
+11-Oct-2017 18:08:09.962 GRAVE [main] org.apache.catalina.core.StandardService.initInternal Failed to initialize connector [Connector[HTTP/1.1-8080]]
+ org.apache.catalina.LifecycleException: Failed to initialize component [Connector[HTTP/1.1-8080]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:112)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:549)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:875)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:607)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:630)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:311)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:494)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:999)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	... 12 more
+Caused by: java.net.BindException: Endereço já em uso
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:970)
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:244)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:613)
+	at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:66)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:997)
+	... 13 more
+
+11-Oct-2017 18:08:09.963 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+11-Oct-2017 18:08:09.965 GRAVE [main] org.apache.coyote.AbstractProtocol.init Failed to initialize end point associated with ProtocolHandler ["ajp-nio-8009"]
+ java.net.BindException: Endereço já em uso
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:970)
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:244)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:613)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:997)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:549)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:875)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:607)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:630)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:311)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:494)
+
+11-Oct-2017 18:08:09.966 GRAVE [main] org.apache.catalina.core.StandardService.initInternal Failed to initialize connector [Connector[AJP/1.3-8009]]
+ org.apache.catalina.LifecycleException: Failed to initialize component [Connector[AJP/1.3-8009]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:112)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:549)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:875)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:607)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:630)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:311)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:494)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:999)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	... 12 more
+Caused by: java.net.BindException: Endereço já em uso
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:970)
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:244)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:613)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:997)
+	... 13 more
+
+11-Oct-2017 18:08:09.967 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.load Initialization processed in 876 ms
+11-Oct-2017 18:08:10.016 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+11-Oct-2017 18:08:10.017 INFORMAÇÕES [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.15
+11-Oct-2017 18:08:10.032 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [/home/nardi/NetBeansProjects/k-lima-gradle/Code/k-lima-gradle/libs/apache-tomcat-8.5.15/conf/Catalina/localhost/tutoria.xml]
+11-Oct-2017 18:08:10.093 ADVERTÊNCIA [localhost-startStop-1] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+11-Oct-2017 18:08:13.151 INFORMAÇÕES [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Oct-2017 18:08:13.202 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [/home/nardi/NetBeansProjects/k-lima-gradle/Code/k-lima-gradle/libs/apache-tomcat-8.5.15/conf/Catalina/localhost/tutoria.xml] has finished in [3,169] ms
+11-Oct-2017 18:08:13.204 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/nardi/NetBeansProjects/k-lima-gradle/Code/k-lima-gradle/libs/apache-tomcat-8.5.15/webapps/k-lima-gradle.war]
+11-Oct-2017 18:08:15.867 INFORMAÇÕES [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+11-Oct-2017 18:08:15.868 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+11-Oct-2017 18:08:15.921 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+11-Oct-2017 18:08:15.972 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+11-Oct-2017 18:08:16.372 INFORMAÇÕES [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Oct-2017 18:08:16.415 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/nardi/NetBeansProjects/k-lima-gradle/Code/k-lima-gradle/libs/apache-tomcat-8.5.15/webapps/k-lima-gradle.war] has finished in [3,211] ms
+11-Oct-2017 18:08:16.420 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/nardi/NetBeansProjects/k-lima-gradle/Code/k-lima-gradle/libs/apache-tomcat-8.5.15/webapps/docs]
+11-Oct-2017 18:08:16.515 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/nardi/NetBeansProjects/k-lima-gradle/Code/k-lima-gradle/libs/apache-tomcat-8.5.15/webapps/docs] has finished in [94] ms
+11-Oct-2017 18:08:16.516 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/nardi/NetBeansProjects/k-lima-gradle/Code/k-lima-gradle/libs/apache-tomcat-8.5.15/webapps/examples]
+11-Oct-2017 18:08:16.871 INFO [localhost-startStop-3] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
+11-Oct-2017 18:08:16.909 INFO [localhost-startStop-3] org.hibernate.Version.logVersion HHH000412: Hibernate Core {4.3.1.Final}
+11-Oct-2017 18:08:16.930 INFO [localhost-startStop-3] org.hibernate.cfg.Environment.<clinit> HHH000206: hibernate.properties not found
+11-Oct-2017 18:08:16.966 INFO [localhost-startStop-3] org.hibernate.cfg.Environment.buildBytecodeProvider HHH000021: Bytecode provider name : javassist
+11-Oct-2017 18:08:17.094 INFO [localhost-startStop-3] org.hibernate.cfg.Configuration.configure HHH000043: Configuring from resource: /hibernate.cfg.xml
+11-Oct-2017 18:08:17.095 INFO [localhost-startStop-3] org.hibernate.cfg.Configuration.getConfigurationInputStream HHH000040: Configuration resource: /hibernate.cfg.xml
+Initial SessionFactory creation failed.org.hibernate.HibernateException: /hibernate.cfg.xml not found
+11-Oct-2017 18:08:17.157 ADVERTÊNCIA [localhost-startStop-3] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [tutoria] registered the JDBC driver [org.mariadb.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+11-Oct-2017 18:08:17.223 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+11-Oct-2017 18:08:17.227 GRAVE [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+11-Oct-2017 18:08:17.230 GRAVE [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal Context [/examples] startup failed due to previous errors
+11-Oct-2017 18:08:17.232 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+11-Oct-2017 18:08:17.240 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+11-Oct-2017 18:08:17.242 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+11-Oct-2017 18:08:17.247 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/nardi/NetBeansProjects/k-lima-gradle/Code/k-lima-gradle/libs/apache-tomcat-8.5.15/webapps/examples] has finished in [731] ms
+11-Oct-2017 18:08:17.248 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/nardi/NetBeansProjects/k-lima-gradle/Code/k-lima-gradle/libs/apache-tomcat-8.5.15/webapps/manager]
+11-Oct-2017 18:08:17.294 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/nardi/NetBeansProjects/k-lima-gradle/Code/k-lima-gradle/libs/apache-tomcat-8.5.15/webapps/manager] has finished in [46] ms
+11-Oct-2017 18:08:17.294 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/nardi/NetBeansProjects/k-lima-gradle/Code/k-lima-gradle/libs/apache-tomcat-8.5.15/webapps/host-manager]
+11-Oct-2017 18:08:17.327 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/nardi/NetBeansProjects/k-lima-gradle/Code/k-lima-gradle/libs/apache-tomcat-8.5.15/webapps/host-manager] has finished in [32] ms
+11-Oct-2017 18:08:17.327 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/nardi/NetBeansProjects/k-lima-gradle/Code/k-lima-gradle/libs/apache-tomcat-8.5.15/webapps/ROOT]
+11-Oct-2017 18:08:17.352 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/nardi/NetBeansProjects/k-lima-gradle/Code/k-lima-gradle/libs/apache-tomcat-8.5.15/webapps/ROOT] has finished in [25] ms
+11-Oct-2017 18:08:17.380 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.start Server startup in 7413 ms
+11-Oct-2017 18:31:33.945 INFORMAÇÕES [Thread-3] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+11-Oct-2017 18:31:34.099 INFORMAÇÕES [Thread-3] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+11-Oct-2017 18:31:34.100 INFORMAÇÕES [Thread-3] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+11-Oct-2017 18:31:34.889 INFO [localhost-startStop-2] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
+11-Oct-2017 18:31:34.903 INFO [localhost-startStop-2] org.hibernate.Version.logVersion HHH000412: Hibernate Core {4.3.1.Final}
+11-Oct-2017 18:31:34.908 INFO [localhost-startStop-2] org.hibernate.cfg.Environment.<clinit> HHH000206: hibernate.properties not found
+11-Oct-2017 18:31:34.911 INFO [localhost-startStop-2] org.hibernate.cfg.Environment.buildBytecodeProvider HHH000021: Bytecode provider name : javassist
+11-Oct-2017 18:31:34.946 INFO [localhost-startStop-2] org.hibernate.cfg.Configuration.configure HHH000043: Configuring from resource: /hibernate.cfg.xml
+11-Oct-2017 18:31:34.946 INFO [localhost-startStop-2] org.hibernate.cfg.Configuration.getConfigurationInputStream HHH000040: Configuration resource: /hibernate.cfg.xml
+Initial SessionFactory creation failed.org.hibernate.HibernateException: /hibernate.cfg.xml not found
+11-Oct-2017 18:31:35.199 INFO [localhost-startStop-2] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
+11-Oct-2017 18:31:35.209 INFO [localhost-startStop-2] org.hibernate.Version.logVersion HHH000412: Hibernate Core {4.3.1.Final}
+11-Oct-2017 18:31:35.212 INFO [localhost-startStop-2] org.hibernate.cfg.Environment.<clinit> HHH000206: hibernate.properties not found
+11-Oct-2017 18:31:35.215 INFO [localhost-startStop-2] org.hibernate.cfg.Environment.buildBytecodeProvider HHH000021: Bytecode provider name : javassist
+11-Oct-2017 18:31:35.245 INFO [localhost-startStop-2] org.hibernate.cfg.Configuration.configure HHH000043: Configuring from resource: /hibernate.cfg.xml
+11-Oct-2017 18:31:35.245 INFO [localhost-startStop-2] org.hibernate.cfg.Configuration.getConfigurationInputStream HHH000040: Configuration resource: /hibernate.cfg.xml
+11-Oct-2017 18:31:35.313 INFO [localhost-startStop-2] org.hibernate.cfg.Configuration.doConfigure HHH000041: Configured SessionFactory: null
+11-Oct-2017 18:31:35.440 WARN [localhost-startStop-2] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000402: Using Hibernate built-in connection pool (not for production use!)
+11-Oct-2017 18:31:35.444 INFO [localhost-startStop-2] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH000401: using driver [org.mariadb.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/db_klima]
+11-Oct-2017 18:31:35.444 INFO [localhost-startStop-2] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH000046: Connection properties: {user=root, password=****, autocommit=false}
+11-Oct-2017 18:31:35.445 INFO [localhost-startStop-2] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH000006: Autocommit mode: false
+11-Oct-2017 18:31:35.446 INFO [localhost-startStop-2] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000115: Hibernate connection pool size: 20 (min=1)
+Initial SessionFactory creation failed.org.hibernate.exception.JDBCConnectionException: Error calling Driver#connect
+11-Oct-2017 18:31:35.499 ADVERTÊNCIA [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [tutoria] registered the JDBC driver [org.mariadb.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+11-Oct-2017 18:31:35.515 INFORMAÇÕES [Thread-3] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+11-Oct-2017 18:31:35.515 INFORMAÇÕES [Thread-3] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+11-Oct-2017 18:31:35.515 INFORMAÇÕES [Thread-3] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+11-Oct-2017 18:31:35.515 INFORMAÇÕES [Thread-3] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+Picked up _JAVA_OPTIONS: -Dawt.useSystemAAFontSettings=on
+11-Oct-2017 18:36:12.918 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.15
+11-Oct-2017 18:36:12.922 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 5 2017 11:03:04 UTC
+11-Oct-2017 18:36:12.922 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.15.0
+11-Oct-2017 18:36:12.922 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+11-Oct-2017 18:36:12.922 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.13.4-1-ARCH
+11-Oct-2017 18:36:12.922 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+11-Oct-2017 18:36:12.923 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk/jre
+11-Oct-2017 18:36:12.923 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_144-b01
+11-Oct-2017 18:36:12.923 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+11-Oct-2017 18:36:12.923 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/nardi/NetBeansProjects/k-lima-gradle/Code/k-lima-gradle/libs/apache-tomcat-8.5.15
+11-Oct-2017 18:36:12.923 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/nardi/NetBeansProjects/k-lima-gradle/Code/k-lima-gradle/libs/apache-tomcat-8.5.15
+11-Oct-2017 18:36:12.924 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/nardi/NetBeansProjects/k-lima-gradle/Code/k-lima-gradle/libs/apache-tomcat-8.5.15/conf/logging.properties
+11-Oct-2017 18:36:12.924 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Oct-2017 18:36:12.924 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+11-Oct-2017 18:36:12.924 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+11-Oct-2017 18:36:12.924 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/nardi/NetBeansProjects/k-lima-gradle/Code/k-lima-gradle/libs/apache-tomcat-8.5.15
+11-Oct-2017 18:36:12.924 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/nardi/NetBeansProjects/k-lima-gradle/Code/k-lima-gradle/libs/apache-tomcat-8.5.15
+11-Oct-2017 18:36:12.925 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/nardi/NetBeansProjects/k-lima-gradle/Code/k-lima-gradle/libs/apache-tomcat-8.5.15/temp
+11-Oct-2017 18:36:12.925 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dawt.useSystemAAFontSettings=on
+11-Oct-2017 18:36:12.925 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+11-Oct-2017 18:36:13.052 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+11-Oct-2017 18:36:13.078 INFORMAÇÕES [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-Oct-2017 18:36:13.085 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+11-Oct-2017 18:36:13.088 INFORMAÇÕES [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-Oct-2017 18:36:13.089 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.load Initialization processed in 712 ms
+11-Oct-2017 18:36:13.148 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+11-Oct-2017 18:36:13.148 INFORMAÇÕES [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.15
+11-Oct-2017 18:36:13.162 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [/home/nardi/NetBeansProjects/k-lima-gradle/Code/k-lima-gradle/libs/apache-tomcat-8.5.15/conf/Catalina/localhost/tutoria.xml]
+11-Oct-2017 18:36:13.219 ADVERTÊNCIA [localhost-startStop-1] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+11-Oct-2017 18:36:16.767 INFORMAÇÕES [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Oct-2017 18:36:16.911 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [/home/nardi/NetBeansProjects/k-lima-gradle/Code/k-lima-gradle/libs/apache-tomcat-8.5.15/conf/Catalina/localhost/tutoria.xml] has finished in [3,748] ms
+11-Oct-2017 18:36:16.915 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/nardi/NetBeansProjects/k-lima-gradle/Code/k-lima-gradle/libs/apache-tomcat-8.5.15/webapps/k-lima-gradle.war]
+11-Oct-2017 18:36:16.919 ADVERTÊNCIA [localhost-startStop-1] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+11-Oct-2017 18:36:20.225 INFORMAÇÕES [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Oct-2017 18:36:20.234 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/nardi/NetBeansProjects/k-lima-gradle/Code/k-lima-gradle/libs/apache-tomcat-8.5.15/webapps/k-lima-gradle.war] has finished in [3,318] ms
+11-Oct-2017 18:36:20.235 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/nardi/NetBeansProjects/k-lima-gradle/Code/k-lima-gradle/libs/apache-tomcat-8.5.15/webapps/docs]
+11-Oct-2017 18:36:20.267 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/nardi/NetBeansProjects/k-lima-gradle/Code/k-lima-gradle/libs/apache-tomcat-8.5.15/webapps/docs] has finished in [32] ms
+11-Oct-2017 18:36:20.268 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/nardi/NetBeansProjects/k-lima-gradle/Code/k-lima-gradle/libs/apache-tomcat-8.5.15/webapps/examples]
+11-Oct-2017 18:36:20.562 GRAVE [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+11-Oct-2017 18:36:20.564 GRAVE [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal Context [/examples] startup failed due to previous errors
+11-Oct-2017 18:36:20.577 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/nardi/NetBeansProjects/k-lima-gradle/Code/k-lima-gradle/libs/apache-tomcat-8.5.15/webapps/examples] has finished in [309] ms
+11-Oct-2017 18:36:20.578 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/nardi/NetBeansProjects/k-lima-gradle/Code/k-lima-gradle/libs/apache-tomcat-8.5.15/webapps/manager]
+11-Oct-2017 18:36:20.632 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/nardi/NetBeansProjects/k-lima-gradle/Code/k-lima-gradle/libs/apache-tomcat-8.5.15/webapps/manager] has finished in [54] ms
+11-Oct-2017 18:36:20.633 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/nardi/NetBeansProjects/k-lima-gradle/Code/k-lima-gradle/libs/apache-tomcat-8.5.15/webapps/host-manager]
+11-Oct-2017 18:36:20.683 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/nardi/NetBeansProjects/k-lima-gradle/Code/k-lima-gradle/libs/apache-tomcat-8.5.15/webapps/host-manager] has finished in [50] ms
+11-Oct-2017 18:36:20.684 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/nardi/NetBeansProjects/k-lima-gradle/Code/k-lima-gradle/libs/apache-tomcat-8.5.15/webapps/ROOT]
+11-Oct-2017 18:36:20.710 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/nardi/NetBeansProjects/k-lima-gradle/Code/k-lima-gradle/libs/apache-tomcat-8.5.15/webapps/ROOT] has finished in [26] ms
+11-Oct-2017 18:36:20.720 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+11-Oct-2017 18:36:20.746 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+11-Oct-2017 18:36:20.773 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.start Server startup in 7683 ms
+================================null null null null null null
+11-Oct-2017 18:36:22.473 INFO [http-nio-8080-exec-2] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
+11-Oct-2017 18:36:22.487 INFO [http-nio-8080-exec-2] org.hibernate.Version.logVersion HHH000412: Hibernate Core {4.3.1.Final}
+11-Oct-2017 18:36:22.491 INFO [http-nio-8080-exec-2] org.hibernate.cfg.Environment.<clinit> HHH000206: hibernate.properties not found
+11-Oct-2017 18:36:22.494 INFO [http-nio-8080-exec-2] org.hibernate.cfg.Environment.buildBytecodeProvider HHH000021: Bytecode provider name : javassist
+11-Oct-2017 18:36:22.531 INFO [http-nio-8080-exec-2] org.hibernate.cfg.Configuration.configure HHH000043: Configuring from resource: /hibernate.cfg.xml
+11-Oct-2017 18:36:22.531 INFO [http-nio-8080-exec-2] org.hibernate.cfg.Configuration.getConfigurationInputStream HHH000040: Configuration resource: /hibernate.cfg.xml
+11-Oct-2017 18:36:22.621 INFO [http-nio-8080-exec-2] org.hibernate.cfg.Configuration.doConfigure HHH000041: Configured SessionFactory: null
+11-Oct-2017 18:36:22.805 WARN [http-nio-8080-exec-2] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000402: Using Hibernate built-in connection pool (not for production use!)
+11-Oct-2017 18:36:22.810 INFO [http-nio-8080-exec-2] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH000401: using driver [org.mariadb.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/db_klima]
+11-Oct-2017 18:36:22.811 INFO [http-nio-8080-exec-2] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH000046: Connection properties: {user=root, password=****, autocommit=false}
+11-Oct-2017 18:36:22.811 INFO [http-nio-8080-exec-2] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH000006: Autocommit mode: false
+11-Oct-2017 18:36:22.815 INFO [http-nio-8080-exec-2] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000115: Hibernate connection pool size: 20 (min=1)
+11-Oct-2017 18:36:22.966 INFO [http-nio-8080-exec-2] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+11-Oct-2017 18:36:23.195 INFO [http-nio-8080-exec-2] org.hibernate.engine.transaction.internal.TransactionFactoryInitiator.initiateService HHH000399: Using default transaction strategy (direct JDBC transactions)
+11-Oct-2017 18:36:23.203 INFO [http-nio-8080-exec-2] org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory.<init> HHH000397: Using ASTQueryTranslatorFactory
+11-Oct-2017 18:36:23.586 INFO [http-nio-8080-exec-2] org.hibernate.tool.hbm2ddl.SchemaUpdate.execute HHH000228: Running hbm2ddl schema update
+11-Oct-2017 18:36:23.586 INFO [http-nio-8080-exec-2] org.hibernate.tool.hbm2ddl.SchemaUpdate.execute HHH000102: Fetching database metadata
+11-Oct-2017 18:36:23.589 INFO [http-nio-8080-exec-2] org.hibernate.tool.hbm2ddl.SchemaUpdate.execute HHH000396: Updating schema
+11-Oct-2017 18:36:23.602 INFO [http-nio-8080-exec-2] org.hibernate.tool.hbm2ddl.TableMetadata.<init> HHH000261: Table found: db_klima.Aluno
+11-Oct-2017 18:36:23.602 INFO [http-nio-8080-exec-2] org.hibernate.tool.hbm2ddl.TableMetadata.<init> HHH000037: Columns: [curso_id, cidade, numero, unidadefederativa, bairro, situacaoatual, latitude, nome, campus_id, cep, centro_id, anoentrada, id, anoatual, anosaida, longitude, rua]
+11-Oct-2017 18:36:23.603 INFO [http-nio-8080-exec-2] org.hibernate.tool.hbm2ddl.TableMetadata.<init> HHH000108: Foreign keys: [fk_76mdv3lndjj1cmyohm02gkruw, fk_3s1xslcdrbmwoo40a1gbhnixk, fk_9lt46q9dj9d6o3970k9m6tfp8]
+11-Oct-2017 18:36:23.603 INFO [http-nio-8080-exec-2] org.hibernate.tool.hbm2ddl.TableMetadata.<init> HHH000126: Indexes: [fk_76mdv3lndjj1cmyohm02gkruw, fk_3s1xslcdrbmwoo40a1gbhnixk, fk_9lt46q9dj9d6o3970k9m6tfp8, primary]
+11-Oct-2017 18:36:23.608 INFO [http-nio-8080-exec-2] org.hibernate.tool.hbm2ddl.TableMetadata.<init> HHH000261: Table found: db_klima.Campus
+11-Oct-2017 18:36:23.608 INFO [http-nio-8080-exec-2] org.hibernate.tool.hbm2ddl.TableMetadata.<init> HHH000037: Columns: [nome, id]
+11-Oct-2017 18:36:23.608 INFO [http-nio-8080-exec-2] org.hibernate.tool.hbm2ddl.TableMetadata.<init> HHH000108: Foreign keys: []
+11-Oct-2017 18:36:23.609 INFO [http-nio-8080-exec-2] org.hibernate.tool.hbm2ddl.TableMetadata.<init> HHH000126: Indexes: [primary]
+11-Oct-2017 18:36:23.614 INFO [http-nio-8080-exec-2] org.hibernate.tool.hbm2ddl.TableMetadata.<init> HHH000261: Table found: db_klima.Centro
+11-Oct-2017 18:36:23.614 INFO [http-nio-8080-exec-2] org.hibernate.tool.hbm2ddl.TableMetadata.<init> HHH000037: Columns: [nome, id, campus_id]
+11-Oct-2017 18:36:23.615 INFO [http-nio-8080-exec-2] org.hibernate.tool.hbm2ddl.TableMetadata.<init> HHH000108: Foreign keys: [fk_8i15r9ty9i5k51mt73wry6wtb]
+11-Oct-2017 18:36:23.615 INFO [http-nio-8080-exec-2] org.hibernate.tool.hbm2ddl.TableMetadata.<init> HHH000126: Indexes: [fk_8i15r9ty9i5k51mt73wry6wtb, primary]
+11-Oct-2017 18:36:23.621 INFO [http-nio-8080-exec-2] org.hibernate.tool.hbm2ddl.TableMetadata.<init> HHH000261: Table found: db_klima.Curso
+11-Oct-2017 18:36:23.622 INFO [http-nio-8080-exec-2] org.hibernate.tool.hbm2ddl.TableMetadata.<init> HHH000037: Columns: [centro_id, nome, id, turno, campus_id]
+11-Oct-2017 18:36:23.622 INFO [http-nio-8080-exec-2] org.hibernate.tool.hbm2ddl.TableMetadata.<init> HHH000108: Foreign keys: [fk_k0syv0pm1kk2df52i3a63jck5, fk_9qjj4tjlto6amnl4628732ktp]
+11-Oct-2017 18:36:23.622 INFO [http-nio-8080-exec-2] org.hibernate.tool.hbm2ddl.TableMetadata.<init> HHH000126: Indexes: [fk_k0syv0pm1kk2df52i3a63jck5, fk_9qjj4tjlto6amnl4628732ktp, primary]
+11-Oct-2017 18:36:23.631 INFO [http-nio-8080-exec-2] org.hibernate.tool.hbm2ddl.TableMetadata.<init> HHH000261: Table found: db_klima.Disciplina
+11-Oct-2017 18:36:23.632 INFO [http-nio-8080-exec-2] org.hibernate.tool.hbm2ddl.TableMetadata.<init> HHH000037: Columns: [anofim, curso_id, codigo, anoinicio, serie, nome, id]
+11-Oct-2017 18:36:23.632 INFO [http-nio-8080-exec-2] org.hibernate.tool.hbm2ddl.TableMetadata.<init> HHH000108: Foreign keys: [fk_da9gikdh9y8mf853f732xebuq]
+11-Oct-2017 18:36:23.632 INFO [http-nio-8080-exec-2] org.hibernate.tool.hbm2ddl.TableMetadata.<init> HHH000126: Indexes: [fk_da9gikdh9y8mf853f732xebuq, primary]
+11-Oct-2017 18:36:23.640 INFO [http-nio-8080-exec-2] org.hibernate.tool.hbm2ddl.TableMetadata.<init> HHH000261: Table found: db_klima.Formulario
+11-Oct-2017 18:36:23.641 INFO [http-nio-8080-exec-2] org.hibernate.tool.hbm2ddl.TableMetadata.<init> HHH000037: Columns: [numeroreprovacoes, ano, disciplina_id, numeroaprovacoes, id]
+11-Oct-2017 18:36:23.641 INFO [http-nio-8080-exec-2] org.hibernate.tool.hbm2ddl.TableMetadata.<init> HHH000108: Foreign keys: [fk_73qwr3he9dx5dv4tcrd6a95mr]
+11-Oct-2017 18:36:23.641 INFO [http-nio-8080-exec-2] org.hibernate.tool.hbm2ddl.TableMetadata.<init> HHH000126: Indexes: [fk_73qwr3he9dx5dv4tcrd6a95mr, primary]
+11-Oct-2017 18:36:23.646 INFO [http-nio-8080-exec-2] org.hibernate.tool.hbm2ddl.TableMetadata.<init> HHH000261: Table found: db_klima.Usuario
+11-Oct-2017 18:36:23.647 INFO [http-nio-8080-exec-2] org.hibernate.tool.hbm2ddl.TableMetadata.<init> HHH000037: Columns: [senha, salt, datacriacao, segundonome, id, email, nomeusuario, primeironome]
+11-Oct-2017 18:36:23.647 INFO [http-nio-8080-exec-2] org.hibernate.tool.hbm2ddl.TableMetadata.<init> HHH000108: Foreign keys: []
+11-Oct-2017 18:36:23.647 INFO [http-nio-8080-exec-2] org.hibernate.tool.hbm2ddl.TableMetadata.<init> HHH000126: Indexes: [primary]
+11-Oct-2017 18:36:23.649 INFO [http-nio-8080-exec-2] org.hibernate.tool.hbm2ddl.SchemaUpdate.execute HHH000232: Schema update complete
+Hibernate: select this_.id as id1_0_6_, this_.anoAtual as anoAtual2_0_6_, this_.anoEntrada as anoEntra3_0_6_, this_.anoSaida as anoSaida4_0_6_, this_.bairro as bairro5_0_6_, this_.campus_id as campus_15_0_6_, this_.centro_id as centro_16_0_6_, this_.cep as cep6_0_6_, this_.cidade as cidade7_0_6_, this_.curso_id as curso_i17_0_6_, this_.latitude as latitude8_0_6_, this_.longitude as longitud9_0_6_, this_.nome as nome10_0_6_, this_.numero as numero11_0_6_, this_.rua as rua12_0_6_, this_.situacaoAtual as situaca13_0_6_, this_.unidadeFederativa as unidade14_0_6_, campus2_.id as id1_1_0_, campus2_.nome as nome2_1_0_, centro3_.id as id1_2_1_, centro3_.campus_id as campus_i3_2_1_, centro3_.nome as nome2_2_1_, campus4_.id as id1_1_2_, campus4_.nome as nome2_1_2_, curso5_.id as id1_3_3_, curso5_.campus_id as campus_i4_3_3_, curso5_.centro_id as centro_i5_3_3_, curso5_.nome as nome2_3_3_, curso5_.turno as turno3_3_3_, campus6_.id as id1_1_4_, campus6_.nome as nome2_1_4_, centro7_.id as id1_2_5_, centro7_.campus_id as campus_i3_2_5_, centro7_.nome as nome2_2_5_ from Aluno this_ left outer join Campus campus2_ on this_.campus_id=campus2_.id left outer join Centro centro3_ on this_.centro_id=centro3_.id left outer join Campus campus4_ on centro3_.campus_id=campus4_.id left outer join Curso curso5_ on this_.curso_id=curso5_.id left outer join Campus campus6_ on curso5_.campus_id=campus6_.id left outer join Centro centro7_ on curso5_.centro_id=centro7_.id where lower(this_.anoAtual) like ? and lower(this_.nome) like ? and lower(this_.situacaoAtual) like ? and lower(this_.anoEntrada) like ?
+Hibernate: select this_.id as id1_0_6_, this_.anoAtual as anoAtual2_0_6_, this_.anoEntrada as anoEntra3_0_6_, this_.anoSaida as anoSaida4_0_6_, this_.bairro as bairro5_0_6_, this_.campus_id as campus_15_0_6_, this_.centro_id as centro_16_0_6_, this_.cep as cep6_0_6_, this_.cidade as cidade7_0_6_, this_.curso_id as curso_i17_0_6_, this_.latitude as latitude8_0_6_, this_.longitude as longitud9_0_6_, this_.nome as nome10_0_6_, this_.numero as numero11_0_6_, this_.rua as rua12_0_6_, this_.situacaoAtual as situaca13_0_6_, this_.unidadeFederativa as unidade14_0_6_, campus2_.id as id1_1_0_, campus2_.nome as nome2_1_0_, centro3_.id as id1_2_1_, centro3_.campus_id as campus_i3_2_1_, centro3_.nome as nome2_2_1_, campus4_.id as id1_1_2_, campus4_.nome as nome2_1_2_, curso5_.id as id1_3_3_, curso5_.campus_id as campus_i4_3_3_, curso5_.centro_id as centro_i5_3_3_, curso5_.nome as nome2_3_3_, curso5_.turno as turno3_3_3_, campus6_.id as id1_1_4_, campus6_.nome as nome2_1_4_, centro7_.id as id1_2_5_, centro7_.campus_id as campus_i3_2_5_, centro7_.nome as nome2_2_5_ from Aluno this_ left outer join Campus campus2_ on this_.campus_id=campus2_.id left outer join Centro centro3_ on this_.centro_id=centro3_.id left outer join Campus campus4_ on centro3_.campus_id=campus4_.id left outer join Curso curso5_ on this_.curso_id=curso5_.id left outer join Campus campus6_ on curso5_.campus_id=campus6_.id left outer join Centro centro7_ on curso5_.centro_id=centro7_.id
+11-Oct-2017 18:38:10.757 INFORMAÇÕES [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/k-lima-gradle]
+11-Oct-2017 18:38:11.003 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
+11-Oct-2017 18:38:11.014 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.hibernate.Version.logVersion HHH000412: Hibernate Core {4.3.1.Final}
+11-Oct-2017 18:38:11.018 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.hibernate.cfg.Environment.<clinit> HHH000206: hibernate.properties not found
+11-Oct-2017 18:38:11.020 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.hibernate.cfg.Environment.buildBytecodeProvider HHH000021: Bytecode provider name : javassist
+11-Oct-2017 18:38:11.053 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.hibernate.cfg.Configuration.configure HHH000043: Configuring from resource: /hibernate.cfg.xml
+11-Oct-2017 18:38:11.053 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.hibernate.cfg.Configuration.getConfigurationInputStream HHH000040: Configuration resource: /hibernate.cfg.xml
+11-Oct-2017 18:38:11.127 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.hibernate.cfg.Configuration.doConfigure HHH000041: Configured SessionFactory: null
+11-Oct-2017 18:38:11.391 WARN [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000402: Using Hibernate built-in connection pool (not for production use!)
+11-Oct-2017 18:38:11.394 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH000401: using driver [org.mariadb.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/db_klima]
+11-Oct-2017 18:38:11.395 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH000046: Connection properties: {user=root, password=****, autocommit=false}
+11-Oct-2017 18:38:11.396 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH000006: Autocommit mode: false
+11-Oct-2017 18:38:11.399 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000115: Hibernate connection pool size: 20 (min=1)
+11-Oct-2017 18:38:11.707 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+11-Oct-2017 18:38:12.035 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.hibernate.engine.transaction.internal.TransactionFactoryInitiator.initiateService HHH000399: Using default transaction strategy (direct JDBC transactions)
+11-Oct-2017 18:38:12.046 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory.<init> HHH000397: Using ASTQueryTranslatorFactory
+11-Oct-2017 18:38:12.799 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.hibernate.tool.hbm2ddl.SchemaUpdate.execute HHH000228: Running hbm2ddl schema update
+11-Oct-2017 18:38:12.799 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.hibernate.tool.hbm2ddl.SchemaUpdate.execute HHH000102: Fetching database metadata
+11-Oct-2017 18:38:12.803 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.hibernate.tool.hbm2ddl.SchemaUpdate.execute HHH000396: Updating schema
+11-Oct-2017 18:38:12.823 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.hibernate.tool.hbm2ddl.TableMetadata.<init> HHH000261: Table found: db_klima.Aluno
+11-Oct-2017 18:38:12.824 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.hibernate.tool.hbm2ddl.TableMetadata.<init> HHH000037: Columns: [curso_id, cidade, numero, unidadefederativa, bairro, situacaoatual, latitude, nome, campus_id, cep, centro_id, anoentrada, id, anoatual, anosaida, longitude, rua]
+11-Oct-2017 18:38:12.825 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.hibernate.tool.hbm2ddl.TableMetadata.<init> HHH000108: Foreign keys: [fk_76mdv3lndjj1cmyohm02gkruw, fk_3s1xslcdrbmwoo40a1gbhnixk, fk_9lt46q9dj9d6o3970k9m6tfp8]
+11-Oct-2017 18:38:12.825 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.hibernate.tool.hbm2ddl.TableMetadata.<init> HHH000126: Indexes: [fk_76mdv3lndjj1cmyohm02gkruw, fk_3s1xslcdrbmwoo40a1gbhnixk, fk_9lt46q9dj9d6o3970k9m6tfp8, primary]
+11-Oct-2017 18:38:12.833 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.hibernate.tool.hbm2ddl.TableMetadata.<init> HHH000261: Table found: db_klima.Campus
+11-Oct-2017 18:38:12.836 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.hibernate.tool.hbm2ddl.TableMetadata.<init> HHH000037: Columns: [nome, id]
+11-Oct-2017 18:38:12.837 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.hibernate.tool.hbm2ddl.TableMetadata.<init> HHH000108: Foreign keys: []
+11-Oct-2017 18:38:12.837 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.hibernate.tool.hbm2ddl.TableMetadata.<init> HHH000126: Indexes: [primary]
+11-Oct-2017 18:38:12.845 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.hibernate.tool.hbm2ddl.TableMetadata.<init> HHH000261: Table found: db_klima.Centro
+11-Oct-2017 18:38:12.845 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.hibernate.tool.hbm2ddl.TableMetadata.<init> HHH000037: Columns: [nome, id, campus_id]
+11-Oct-2017 18:38:12.846 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.hibernate.tool.hbm2ddl.TableMetadata.<init> HHH000108: Foreign keys: [fk_8i15r9ty9i5k51mt73wry6wtb]
+11-Oct-2017 18:38:12.846 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.hibernate.tool.hbm2ddl.TableMetadata.<init> HHH000126: Indexes: [fk_8i15r9ty9i5k51mt73wry6wtb, primary]
+11-Oct-2017 18:38:12.859 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.hibernate.tool.hbm2ddl.TableMetadata.<init> HHH000261: Table found: db_klima.Curso
+11-Oct-2017 18:38:12.859 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.hibernate.tool.hbm2ddl.TableMetadata.<init> HHH000037: Columns: [centro_id, nome, id, turno, campus_id]
+11-Oct-2017 18:38:12.860 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.hibernate.tool.hbm2ddl.TableMetadata.<init> HHH000108: Foreign keys: [fk_k0syv0pm1kk2df52i3a63jck5, fk_9qjj4tjlto6amnl4628732ktp]
+11-Oct-2017 18:38:12.861 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.hibernate.tool.hbm2ddl.TableMetadata.<init> HHH000126: Indexes: [fk_k0syv0pm1kk2df52i3a63jck5, fk_9qjj4tjlto6amnl4628732ktp, primary]
+11-Oct-2017 18:38:12.869 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.hibernate.tool.hbm2ddl.TableMetadata.<init> HHH000261: Table found: db_klima.Disciplina
+11-Oct-2017 18:38:12.869 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.hibernate.tool.hbm2ddl.TableMetadata.<init> HHH000037: Columns: [anofim, curso_id, codigo, anoinicio, serie, nome, id]
+11-Oct-2017 18:38:12.869 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.hibernate.tool.hbm2ddl.TableMetadata.<init> HHH000108: Foreign keys: [fk_da9gikdh9y8mf853f732xebuq]
+11-Oct-2017 18:38:12.869 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.hibernate.tool.hbm2ddl.TableMetadata.<init> HHH000126: Indexes: [fk_da9gikdh9y8mf853f732xebuq, primary]
+11-Oct-2017 18:38:12.883 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.hibernate.tool.hbm2ddl.TableMetadata.<init> HHH000261: Table found: db_klima.Formulario
+11-Oct-2017 18:38:12.884 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.hibernate.tool.hbm2ddl.TableMetadata.<init> HHH000037: Columns: [numeroreprovacoes, ano, disciplina_id, numeroaprovacoes, id]
+11-Oct-2017 18:38:12.884 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.hibernate.tool.hbm2ddl.TableMetadata.<init> HHH000108: Foreign keys: [fk_73qwr3he9dx5dv4tcrd6a95mr]
+11-Oct-2017 18:38:12.884 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.hibernate.tool.hbm2ddl.TableMetadata.<init> HHH000126: Indexes: [fk_73qwr3he9dx5dv4tcrd6a95mr, primary]
+11-Oct-2017 18:38:12.890 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.hibernate.tool.hbm2ddl.TableMetadata.<init> HHH000261: Table found: db_klima.Usuario
+11-Oct-2017 18:38:12.891 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.hibernate.tool.hbm2ddl.TableMetadata.<init> HHH000037: Columns: [senha, salt, datacriacao, segundonome, id, email, nomeusuario, primeironome]
+11-Oct-2017 18:38:12.891 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.hibernate.tool.hbm2ddl.TableMetadata.<init> HHH000108: Foreign keys: []
+11-Oct-2017 18:38:12.892 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.hibernate.tool.hbm2ddl.TableMetadata.<init> HHH000126: Indexes: [primary]
+11-Oct-2017 18:38:12.894 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.hibernate.tool.hbm2ddl.SchemaUpdate.execute HHH000232: Schema update complete
+11-Oct-2017 18:38:12.917 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.stop HHH000030: Cleaning up connection pool [jdbc:mysql://localhost:3306/db_klima]
+11-Oct-2017 18:38:13.000 INFORMAÇÕES [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/nardi/NetBeansProjects/k-lima-gradle/Code/k-lima-gradle/libs/apache-tomcat-8.5.15/webapps/k-lima-gradle.war]
+11-Oct-2017 18:38:13.005 ADVERTÊNCIA [localhost-startStop-2] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+11-Oct-2017 18:38:15.913 INFORMAÇÕES [localhost-startStop-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Oct-2017 18:38:15.919 INFORMAÇÕES [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/nardi/NetBeansProjects/k-lima-gradle/Code/k-lima-gradle/libs/apache-tomcat-8.5.15/webapps/k-lima-gradle.war] has finished in [2,919] ms
+11-Oct-2017 18:40:36.147 INFORMAÇÕES [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+11-Oct-2017 18:40:36.147 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+11-Oct-2017 18:40:36.200 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+11-Oct-2017 18:40:36.251 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+11-Oct-2017 18:40:36.444 INFO [localhost-startStop-3] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
+11-Oct-2017 18:40:36.453 INFO [localhost-startStop-3] org.hibernate.Version.logVersion HHH000412: Hibernate Core {4.3.1.Final}
+11-Oct-2017 18:40:36.456 INFO [localhost-startStop-3] org.hibernate.cfg.Environment.<clinit> HHH000206: hibernate.properties not found
+11-Oct-2017 18:40:36.457 INFO [localhost-startStop-3] org.hibernate.cfg.Environment.buildBytecodeProvider HHH000021: Bytecode provider name : javassist
+11-Oct-2017 18:40:36.477 INFO [localhost-startStop-3] org.hibernate.cfg.Configuration.configure HHH000043: Configuring from resource: /hibernate.cfg.xml
+11-Oct-2017 18:40:36.477 INFO [localhost-startStop-3] org.hibernate.cfg.Configuration.getConfigurationInputStream HHH000040: Configuration resource: /hibernate.cfg.xml
+11-Oct-2017 18:40:36.524 INFO [localhost-startStop-3] org.hibernate.cfg.Configuration.doConfigure HHH000041: Configured SessionFactory: null
+11-Oct-2017 18:40:36.636 WARN [localhost-startStop-3] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000402: Using Hibernate built-in connection pool (not for production use!)
+11-Oct-2017 18:40:36.641 INFO [localhost-startStop-3] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH000401: using driver [org.mariadb.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/db_klima]
+11-Oct-2017 18:40:36.642 INFO [localhost-startStop-3] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH000046: Connection properties: {user=root, password=****, autocommit=false}
+11-Oct-2017 18:40:36.642 INFO [localhost-startStop-3] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH000006: Autocommit mode: false
+11-Oct-2017 18:40:36.645 INFO [localhost-startStop-3] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000115: Hibernate connection pool size: 20 (min=1)
+11-Oct-2017 18:40:36.743 INFO [localhost-startStop-3] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+11-Oct-2017 18:40:36.992 INFO [localhost-startStop-3] org.hibernate.engine.transaction.internal.TransactionFactoryInitiator.initiateService HHH000399: Using default transaction strategy (direct JDBC transactions)
+11-Oct-2017 18:40:37.000 INFO [localhost-startStop-3] org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory.<init> HHH000397: Using ASTQueryTranslatorFactory
+11-Oct-2017 18:40:37.294 INFO [localhost-startStop-3] org.hibernate.tool.hbm2ddl.SchemaUpdate.execute HHH000228: Running hbm2ddl schema update
+11-Oct-2017 18:40:37.294 INFO [localhost-startStop-3] org.hibernate.tool.hbm2ddl.SchemaUpdate.execute HHH000102: Fetching database metadata
+11-Oct-2017 18:40:37.296 INFO [localhost-startStop-3] org.hibernate.tool.hbm2ddl.SchemaUpdate.execute HHH000396: Updating schema
+11-Oct-2017 18:40:37.308 INFO [localhost-startStop-3] org.hibernate.tool.hbm2ddl.TableMetadata.<init> HHH000261: Table found: db_klima.Aluno
+11-Oct-2017 18:40:37.308 INFO [localhost-startStop-3] org.hibernate.tool.hbm2ddl.TableMetadata.<init> HHH000037: Columns: [curso_id, cidade, numero, unidadefederativa, bairro, situacaoatual, latitude, nome, campus_id, cep, centro_id, anoentrada, id, anoatual, anosaida, longitude, rua]
+11-Oct-2017 18:40:37.308 INFO [localhost-startStop-3] org.hibernate.tool.hbm2ddl.TableMetadata.<init> HHH000108: Foreign keys: [fk_76mdv3lndjj1cmyohm02gkruw, fk_3s1xslcdrbmwoo40a1gbhnixk, fk_9lt46q9dj9d6o3970k9m6tfp8]
+11-Oct-2017 18:40:37.309 INFO [localhost-startStop-3] org.hibernate.tool.hbm2ddl.TableMetadata.<init> HHH000126: Indexes: [fk_76mdv3lndjj1cmyohm02gkruw, fk_3s1xslcdrbmwoo40a1gbhnixk, fk_9lt46q9dj9d6o3970k9m6tfp8, primary]
+11-Oct-2017 18:40:37.313 INFO [localhost-startStop-3] org.hibernate.tool.hbm2ddl.TableMetadata.<init> HHH000261: Table found: db_klima.Campus
+11-Oct-2017 18:40:37.314 INFO [localhost-startStop-3] org.hibernate.tool.hbm2ddl.TableMetadata.<init> HHH000037: Columns: [nome, id]
+11-Oct-2017 18:40:37.314 INFO [localhost-startStop-3] org.hibernate.tool.hbm2ddl.TableMetadata.<init> HHH000108: Foreign keys: []
+11-Oct-2017 18:40:37.314 INFO [localhost-startStop-3] org.hibernate.tool.hbm2ddl.TableMetadata.<init> HHH000126: Indexes: [primary]
+11-Oct-2017 18:40:37.319 INFO [localhost-startStop-3] org.hibernate.tool.hbm2ddl.TableMetadata.<init> HHH000261: Table found: db_klima.Centro
+11-Oct-2017 18:40:37.320 INFO [localhost-startStop-3] org.hibernate.tool.hbm2ddl.TableMetadata.<init> HHH000037: Columns: [nome, id, campus_id]
+11-Oct-2017 18:40:37.320 INFO [localhost-startStop-3] org.hibernate.tool.hbm2ddl.TableMetadata.<init> HHH000108: Foreign keys: [fk_8i15r9ty9i5k51mt73wry6wtb]
+11-Oct-2017 18:40:37.320 INFO [localhost-startStop-3] org.hibernate.tool.hbm2ddl.TableMetadata.<init> HHH000126: Indexes: [fk_8i15r9ty9i5k51mt73wry6wtb, primary]
+11-Oct-2017 18:40:37.326 INFO [localhost-startStop-3] org.hibernate.tool.hbm2ddl.TableMetadata.<init> HHH000261: Table found: db_klima.Curso
+11-Oct-2017 18:40:37.326 INFO [localhost-startStop-3] org.hibernate.tool.hbm2ddl.TableMetadata.<init> HHH000037: Columns: [centro_id, nome, id, turno, campus_id]
+11-Oct-2017 18:40:37.326 INFO [localhost-startStop-3] org.hibernate.tool.hbm2ddl.TableMetadata.<init> HHH000108: Foreign keys: [fk_k0syv0pm1kk2df52i3a63jck5, fk_9qjj4tjlto6amnl4628732ktp]
+11-Oct-2017 18:40:37.326 INFO [localhost-startStop-3] org.hibernate.tool.hbm2ddl.TableMetadata.<init> HHH000126: Indexes: [fk_k0syv0pm1kk2df52i3a63jck5, fk_9qjj4tjlto6amnl4628732ktp, primary]
+11-Oct-2017 18:40:37.332 INFO [localhost-startStop-3] org.hibernate.tool.hbm2ddl.TableMetadata.<init> HHH000261: Table found: db_klima.Disciplina
+11-Oct-2017 18:40:37.332 INFO [localhost-startStop-3] org.hibernate.tool.hbm2ddl.TableMetadata.<init> HHH000037: Columns: [anofim, curso_id, codigo, anoinicio, serie, nome, id]
+11-Oct-2017 18:40:37.332 INFO [localhost-startStop-3] org.hibernate.tool.hbm2ddl.TableMetadata.<init> HHH000108: Foreign keys: [fk_da9gikdh9y8mf853f732xebuq]
+11-Oct-2017 18:40:37.332 INFO [localhost-startStop-3] org.hibernate.tool.hbm2ddl.TableMetadata.<init> HHH000126: Indexes: [fk_da9gikdh9y8mf853f732xebuq, primary]
+11-Oct-2017 18:40:37.337 INFO [localhost-startStop-3] org.hibernate.tool.hbm2ddl.TableMetadata.<init> HHH000261: Table found: db_klima.Formulario
+11-Oct-2017 18:40:37.338 INFO [localhost-startStop-3] org.hibernate.tool.hbm2ddl.TableMetadata.<init> HHH000037: Columns: [numeroreprovacoes, ano, disciplina_id, numeroaprovacoes, id]
+11-Oct-2017 18:40:37.338 INFO [localhost-startStop-3] org.hibernate.tool.hbm2ddl.TableMetadata.<init> HHH000108: Foreign keys: [fk_73qwr3he9dx5dv4tcrd6a95mr]
+11-Oct-2017 18:40:37.338 INFO [localhost-startStop-3] org.hibernate.tool.hbm2ddl.TableMetadata.<init> HHH000126: Indexes: [fk_73qwr3he9dx5dv4tcrd6a95mr, primary]
+11-Oct-2017 18:40:37.342 INFO [localhost-startStop-3] org.hibernate.tool.hbm2ddl.TableMetadata.<init> HHH000261: Table found: db_klima.Usuario
+11-Oct-2017 18:40:37.343 INFO [localhost-startStop-3] org.hibernate.tool.hbm2ddl.TableMetadata.<init> HHH000037: Columns: [senha, salt, datacriacao, segundonome, id, email, nomeusuario, primeironome]
+11-Oct-2017 18:40:37.343 INFO [localhost-startStop-3] org.hibernate.tool.hbm2ddl.TableMetadata.<init> HHH000108: Foreign keys: []
+11-Oct-2017 18:40:37.343 INFO [localhost-startStop-3] org.hibernate.tool.hbm2ddl.TableMetadata.<init> HHH000126: Indexes: [primary]
+11-Oct-2017 18:40:37.345 INFO [localhost-startStop-3] org.hibernate.tool.hbm2ddl.SchemaUpdate.execute HHH000232: Schema update complete
+11-Oct-2017 18:40:37.357 INFO [localhost-startStop-3] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.stop HHH000030: Cleaning up connection pool [jdbc:mysql://localhost:3306/db_klima]
+11-Oct-2017 18:40:37.373 INFO [localhost-startStop-3] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.stop HHH000030: Cleaning up connection pool [jdbc:mysql://localhost:3306/db_klima]
+11-Oct-2017 18:40:37.393 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+11-Oct-2017 18:40:37.397 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+11-Oct-2017 18:40:37.401 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+11-Oct-2017 18:40:37.402 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
