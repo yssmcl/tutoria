@@ -1,0 +1,6 @@
+#!/bin/sh
+BASEDIR=$(dirname $(readlink -f "$0"))
+
+$BASEDIR/stop
+
+sudo docker run --name docker-mariadb -p 3306:3306 -v $BASEDIR/mdbdata:/var/lib/mysql -e MYSQL_ALLOW_EMPTY_PASSWORD=true -d mariadb

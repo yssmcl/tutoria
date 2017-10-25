@@ -1,0 +1,3 @@
+#!/bin/sh
+sudo docker stop docker-mariadb
+sudo docker rm docker-mariadb
