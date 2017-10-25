@@ -4,3 +4,4 @@ Code/k-lima-gradle/.nb-gradle/
 .gradle/
 docker-mariadb/mdbdata/*
 !docker-mariadb/mdbdata/.gitkeep
+.vagrant/
